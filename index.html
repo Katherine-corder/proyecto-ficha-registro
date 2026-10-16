@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Ficha de registro del alumno</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            color: #333;
+        }
+
+        h2{
+            text-align: center;
+        }
+
+        table{
+            width: 500px;
+            background-color: #ddd;
+            margin:auto;
+        }
+
+        td{
+            padding: 8px;
+            border: 1px solid #aaa;
+        }
+
+        input[type="text"], input[type="password"]{
+            width: 90%;
+        }
+
+        .imagen{
+            width: 100px;
+            height: 100px;
+            background-color: #eee;
+        }
+
+        .boton{
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>Ficha de registro del alumno</h2>
+
+<form>
+<table>
+
+<tr>
+    <td>Nombre y Apellidos</td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>Nombre de usuario</td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>Contraseña</td>
+    <td><input type="password"></td>
+</tr>
+
+<tr>
+    <td>Repetir contraseña</td>
+    <td><input type="password"></td>
+</tr>
+
+<tr>
+    <td>DNI</td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>Lugar de nacimiento</td>
+    <td><input type="text"></td>
+</tr>
+
+<tr>
+    <td>¿Primer curso?</td>
+    <td><input type="checkbox"> Sí</td>
+</tr>
+
+<tr>
+    <td>Asignatura</td>
+    <td>
+        <input type="radio" name="asig"> Diseño HTML <br>
+        <input type="radio" name="asig"> Metodología <br>
+        <input type="radio" name="asig"> Arquitectura
+    </td>
+</tr>
+
+<tr>
+    <td>Sistema Operativo</td>
+    <td>
+        <select size="4">
+            <option>Windows XP</option>
+            <option>Windows 98</option>
+            <option>Windows 2000</option>
+            <option>MacOS X</option>
+        </select>
+    </td>
+</tr>
+
+<tr>
+    <td>Prueba de imagen</td>
+    <td>
+        <div class="imagen"></div>
+        <p>(Pulsar para enviar)</p>
+    </td>
+</tr>
+
+<tr>
+    <td class="boton">
+        <button type="submit">Enviar</button>
+    </td>
+    <td class="boton">
+        <button type="reset">Borrar</button>
+    </td>
+</tr>
+
+</table>
+</form>
+
+</body>
+</html>
